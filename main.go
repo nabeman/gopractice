@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"gopractice/test"
 	"gopractice/local/pkctest"
+	"gopractice/local/under_score"
 )
 
 func main(){
@@ -19,4 +20,5 @@ func main(){
 	test.Test1()
 	//test.test2() test.goのtest2関数は先頭が小文字なので参照できない
 	pkctest.Test3()
+	a_score.Under()
 }
